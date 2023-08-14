@@ -1,0 +1,104 @@
+ body{
+    text-align: center;
+    margin: 100px;
+    margin-left: 40px;
+    background-image: url("/images/bg\ cafe.jpeg");
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 40px;
+}
+    
+button{
+    color: rgb(130, 150, 20);
+    font-size: 15spx;
+    border-radius: 45px;
+    padding: 50px;
+    justify-content: center;
+}
+button:hover{
+    padding:30px 35px;
+    margin: 15px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(202, 202, 19);
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100px;
+    height: 14vh;
+    padding: 0px 100px;
+    position: fixed;
+    display: flex; 
+    
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+    align-items: center;
+
+}
+nav ol li a{
+    text-decoration: none;
+    font-size: 10px;
+    text-transform:uppercase;
+    color: rgb(217, 255, 0);
+    font-weight: 800;
+    float: left;
+    display: inline;
+    letter-spacing: 1.5;
+}
+.af{
+    background-image: url("/images/white\ bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+ol{
+    font-size: 100px;
+    font-style: oblique;
+    color: rgba(3, 3, 3, 0.925);
+    border-radius: 45px;
+    padding-left: 5px;
+    
+}
+.bur{
+    
+    background-image: url("/images/burger\ bg.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    
+}
+ol{
+    font-size: 50px;
+    font-style: oblique;
+    color: rgba(3, 3, 3, 0.925);
+    border-radius: 45px;
+    padding-left: 5px;
+    font-weight: 100;
+    
+}
+.shw{
+    
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    
+}
+
+
+
